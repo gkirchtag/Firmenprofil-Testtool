@@ -1,0 +1,880 @@
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title></title>
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<style type="text/css">@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,500,600,700');
+
+
+/*
+* === Full Width Profile ===
+*/
+
+@media (min-width: 768px) {
+
+	#companyprofile {
+	  display: -webkit-flex !important; /* Safari */
+	  -webkit-flex-wrap: wrap !important; /* Safari 6.1+ */
+	  display: -moz-box !important;
+	  display: -ms-flexbox !important;
+	  display: flex !important;   
+	  flex-wrap: wrap !important;
+	}
+
+	.left-container {
+		width: 944px !important;
+		padding-right: 0px !important;
+	}
+
+	.right-container.tablet-only {
+		display: none !important;
+	}
+
+	#companyprofile .right-container {
+		order: -1;
+		width: 868px !important;
+		padding: 16px 38px !important;
+		margin-bottom: 40px;
+		display: -ms-grid;
+		display: grid;
+		-ms-grid-columns: auto 1fr 200px;
+		-ms-grid-rows: 1fr auto auto 1fr;
+		grid-template-columns: auto 1fr 200px;
+		grid-template-rows: 1fr auto auto 1fr;
+	}
+		
+
+	.right-container .logo {
+		width: auto !important;
+		height: auto !important;
+		margin-bottom: 0px !important;
+		text-align: left;
+		margin-right: 38px !important;
+		float: none !important;
+		-ms-grid-row: 1;
+		-ms-grid-row-span: 4;
+		-ms-grid-column: 1;
+		grid-area: 1/1/5/2;
+		margin-bottom: 0px !important;
+		align-self: center;
+	}
+
+	.jobinfo {
+		height: 0px;
+	}
+
+	.logo img{
+		margin-bottom: 0px !important;
+		float: left;
+	}
+
+	.address-1 {
+		-ms-grid-row: 2;
+		-ms-grid-column: 2;
+		grid-area: 2/2/3/3;
+		margin-bottom: 0px !important;
+	}
+
+	.address-2 {
+		-ms-grid-row: 3;
+		-ms-grid-column: 2;
+		grid-area: 3/2/4/3;
+		align-self: end !important;
+	}
+
+	.company-links {
+		-ms-grid-row: 2;
+		-ms-grid-row-span: 2;
+		-ms-grid-column: 3;
+		grid-area: 2/3/4/4;
+		text-align: right;
+		align-self: end;
+		margin-top: 0px !important;
+	}
+
+	#applicationbutton {
+		margin-right: -99px;
+		margin-left: 10px;
+	}
+
+
+	.company-links .mailto {
+		padding-left: 0px !important;
+		padding-right: 22px !important;
+		background-position: right center;
+	}
+
+	.company-links .maptoggle {
+		padding-left: 0px !important;
+		padding-right: 22px !important;
+		background-position: right center;
+	}
+
+	.company-links .www {
+		padding-left: 0px !important;
+		padding-right: 22px !important;
+		background-position: right center;
+	}
+
+}
+
+
+/*
+* === Full Width Profile End===
+*/
+
+.frame_responsive {
+	overflow: visible; 
+	max-width: 944px;
+	margin-left: auto !important; 
+	margin-right: auto !important;
+	background-image: url(https://media.tirolerjobs.at/openings/0001/08/95046af996eb9a51dde11a365a0a1089092559d2.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 90%;
+	background-size: 90%;
+	background-position: left -250px top -100px; 
+	background-color: #D3D8DC;
+}
+
+.firmenprofil {
+
+	margin-top: -40px;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: 500;
+	font-size: 14px; 
+	line-height: 20px;
+	text-align: justify;
+	color: #014983;
+	font-weight: 300;
+	max-width: 650px;
+	}
+
+.firmenprofil .caption {
+
+	color: #FFF;
+	text-align: left !important;
+	padding: 5px;
+	background-color: #004982;	
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 700;
+	padding: 0px 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+	background-color: #004982;
+	margin-top: 40px;
+}
+
+.firmenprofil .captionp {
+	margin-right: 50px; 
+	margin-bottom: -80px;
+	z-index: 500; 
+	position: relative;
+	margin-left: -20px;
+}
+
+.firmenprofil .subcaption {
+	font-size: 20px;
+	text-align: center;
+}
+
+.firmenprofil .headi {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.boxi1 {
+	background-color: rgba(255,255,255,0.5);
+	display: inline-block;
+}
+
+.boxi2 {
+	display: inline-block;
+	position: relative;
+	border: 1px solid #004982;
+	top: -5px;
+	right: -5px;
+	padding: 15px;
+	font-weight: 700;
+	color: #004982;
+}
+
+.firmenprofil ul {
+	list-style-type: none !important;
+	list-style-image: url() !important;
+	margin-bottom: 10px !important;
+	text-indent: -19px !important;
+	font-weight: 600;
+}
+
+.firmenprofil li {
+    margin: 5px 0px;
+	margin-left: -20px !important;
+	text-align: left !important;
+}
+
+.firmenprofil li::before {
+	margin-right: 10px !important;
+	top: 4px !important;
+	content: "\00AC" !important;
+	font-weight: 600 !important;
+	font-size: 18px !important;
+	line-height: 14px !important;
+}
+
+.firmenprofil .bugfix {
+    margin: 0px !important;
+    height: 0px !important;
+}
+
+img { 
+	max-width: 100%; 
+	height: auto;
+	}
+
+.lefti{
+	width: 300px;
+	float: left;
+}
+
+.righti{
+	width: 300px;
+	float: left;
+	margin-left: 50px;
+}
+
+.benefiti {
+	background-position: left top;
+	background-repeat: no-repeat;
+	-webkit-background-size: 60px 60px;
+	background-size: 60px 60px;
+	padding-top: 3px;
+	padding-left: 75px;
+	text-align: left;
+	min-height: 60px;
+}
+
+.verpflegungi{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/84eae2c1fb2c77799a72bb221d95d9047e554493.png);
+}
+.zukunfti{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/01fd8abdeb08799f1a114c5e205fc23357c4332d.png);
+}
+.treuei{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/d66e1895c2e958ac340a43dc4bd24383541dddac.png);
+}
+.gutscheinei{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/b218d6e4df93a41f5db641855d697ee7e0d7752f.png);
+}
+.kinderi{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/00473dd21c5c4e979b7c736ca0f64c7dc86c9c5a.png);
+}
+.impfi{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/ffe9a89ff3131c8b390d4bb0d2b53cf0826f0335.png);
+}
+.sociali{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/1dd4cc2dd598c2df3d10ea59190344cb0379d15b.png);
+}
+.smartphonei{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/6c939ff305563ded2eb30c067c0422b398e77656.png);
+}
+.teami{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/bac390a1c5558110e730e823a114854c5da67376.png);
+}
+.weiterbildungi{
+	background-image: url(https://media.tirolerjobs.at/openings/0001/11/f1d39e53149b678210e9c2d2a850fdf4f4335f75.png);
+}
+
+
+
+
+
+.firmenprofil a {
+	color: #014983;
+	text-decoration: none;
+}
+
+.firmenprofil a:hover {
+	text-decoration: underline;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Responsive for Tablets */
+@media (max-width: 1050px) and (min-width:621px) {
+    .frame_responsive {
+        padding: 5%; 
+        }
+
+    .lefti{
+        width: calc(50% - 15px);
+    }
+
+    .righti{
+        width: calc(50% - 15px);
+        margin-left: 30px;
+    }
+}
+
+
+
+/* Smartphone */
+@media (max-width:620px) {
+    .frame_responsive {
+        margin-top: -16px; 
+        padding: 0px !important;
+        padding-bottom: 0px;
+        background-color: #fff;}
+    .firmenprofil {
+        text-align: ;
+        padding: 0px;}
+    .firmenprofil .caption {
+        color: #FFF;
+        text-align: left !important;
+        padding: 5px;
+        background-color: #004982;	
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 700;
+        padding: 0px 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+        background-color: #004982;
+        margin-top: 40px;
+    }
+    .firmenprofil .captionp {
+        margin-right: 50px; 
+        margin-bottom: -48px;
+        margin-left: 10px;
+        z-index: 500; 
+        position: relative;
+    }
+
+    .boxi1 {
+        background-color: #D3D8DC;
+        display: inline-block;
+    }
+
+    .righti{
+        margin-left: 0px;
+    }
+}
+</style>
+<!-- Paragraph nicht löschen -->
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="frame_responsive"><!-- Paragraph nicht löschen -->
+<p>&nbsp;</p>
+
+<div class="firmenprofil" style="margin-left: auto; margin-right: auto; overflow: visible;">
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p class="captionp"><span class="caption">&nbsp;Wir MACHEN Urlaub.&nbsp;&nbsp;<br />
+&nbsp;&nbsp;Jeden Tag!&nbsp;</span></p>
+
+<p style="z-index: 50; position: relative;"><img alt="Jobs bei Travel Europe Reiseveranstaltungs GmbH" src="https://media.tirolerjobs.at/openings/0001/10/2cd1e0c96f3d1a002d55484f35b9dc54be5c2cbe.jpg" title="Jobs bei Travel Europe Reiseveranstaltungs GmbH" /></p>
+
+<p>&nbsp;</p>
+
+<p class="subcaption">TRAVEL EUROPE - der f&uuml;hrende<br />
+Spezialist für Gruppenreisen in Europa.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>In unserer Tiroler Firmenzentrale machen wir seit mehr als 30 Jahren Urlaub. Die Betonung liegt allerdings auf dem W&ouml;rtchen &bdquo;machen&ldquo;. Jeden Tag planen und organisieren wir Reisen und haben uns so vom kleinen Tiroler Familienbetrieb zu einem international t&auml;tigen Reiseveranstalter entwickelt.</p>
+
+<p>&nbsp;</p>
+
+<p>Mit &uuml;ber 200 Mitarbeitern, 16&nbsp;Au&szlig;enstellen in ganz Europa und einem modernen Firmensitz in Stans in Tirol z&auml;hlen wir zu den f&uuml;hrenden Spezialisten im Sektor f&uuml;r Bus- und Fluggruppenreisen. Neben vielf&auml;ltigen T&auml;tigkeitsbereichen zeichnet sich unser Unternehmen vor allem durch seine flexible Arbeitszeitgestaltung sowie die zahlreichen Mitarbeiter-Benefits aus.</p>
+
+<p>&nbsp;</p>
+
+<p>Wir sind immer auf der Suche nach begeisterungsf&auml;higen Mitarbeitern, die gerne &uuml;ber den eigenen Tellerrand blicken, fasziniert sind von anderen L&auml;ndern und Kulturen und im Bestfall nicht nur Tirolerisch sprechen. Uns macht vor allem der Spirit eines globalen Unternehmens und gleichzeitig unsere famili&auml;re Atmosph&auml;re als Arbeitgeber so attraktiv.</p>
+
+<p>&nbsp;</p>
+
+<p>Besuch uns auf <strong><a href="http://karriere.traveleurope.cc" target="_blank" title="Karriere bei Travel Europe">karriere.traveleurope.cc</a></strong></p>
+
+<p>&nbsp;</p>
+
+<div class="video-container"><iframe allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube-nocookie.com/embed/o2R-V1T23Eo?rel=0"></iframe></div>
+
+<p>&nbsp;</p>
+
+<p class="headi">Unsere Mitarbeiter genie&szlig;en zahlreiche Benefits</p>
+
+<div class="lefti">
+<p class="bugfix">&nbsp;</p>
+
+<div class="verpflegungi benefiti">
+<p><strong>VERPFLEGUNG</strong><br />
+kostenloses Mittagessen im Gasthof Marschall in Stans sowie kalte und warme Getr&auml;nke in unserer Cafeteria</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="zukunfti benefiti">
+<p><strong>ZUKUNFTSVORSORGE</strong><br />
+j&auml;hrliche Beitr&auml;ge sowohl in eine (Er-)Lebensversicherung als auch in eine private Pensionskasse</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="treuei benefiti">
+<p><strong>TREUEPR&Auml;MIEN</strong><br />
+freiwillige Pr&auml;mien je nach Betriebszugeh&ouml;rigkeit</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="gutscheinei benefiti">
+<p><strong>GUTSCHEINE</strong><br />
+j&auml;hrliche Wertgutscheine f&uuml;r Veranstaltungen, Fitnessstudio oder Kinderbetreuung</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="kinderi benefiti">
+<p><strong>KINDERBETREUUNG</strong><br />
+unterst&uuml;tzende Beitr&auml;ge f&uuml;r die Kinderbetreuung in der Gemeinde Stans</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+
+<div class="righti">
+<p class="bugfix">&nbsp;</p>
+
+<div class="impfi benefiti">
+<p><strong>IMPFAKTION</strong><br />
+zweimal j&auml;hrlich Zecken-, Grippe- &amp; Hepatitisimpfungen</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="sociali benefiti">
+<p><strong>SOCIAL EVENTS</strong><br />
+Wander- &amp; Skitage, Grillabend und eine legend&auml;re Weihnachtsfeier</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="smartphonei benefiti">
+<p><strong>SMARTPHONE</strong><br />
+privates Smartphone inklusive Telefonkosten ab 5 Jahren Betriebszugeh&ouml;rigkeit</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="teami benefiti">
+<p><strong>TEAM-TIME</strong><br />
+kleines Kapital f&uuml;r jedes Team f&uuml;r Unternehmungen nach Wunsch</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<div class="weiterbildungi benefiti">
+<p><strong>WEITERBILDUNG</strong><br />
+unterst&uuml;tzende Beitr&auml;ge f&uuml;r jeweilige Spezialgebiete</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+
+<div style="clear: both;">
+<p>&nbsp;</p>
+
+<p style="z-index: 50; position: relative;"><img alt="Jobs bei Travel Europe Reiseveranstaltungs GmbH" src="https://media.tirolerjobs.at/openings/0001/14/a76cfa45fa1f784165ad7165de780be47e0371db.jpg" title="Jobs bei Travel Europe Reiseveranstaltungs GmbH" /></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+<!-- Benefits Anfang -->
+<style type="text/css">@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700');
+	.FPbenefitsBox {
+		position: relative;
+	}
+
+	.FPbenefitsBox [type=radio] {
+		width: 50px;
+		height: 50px;
+		display: block;
+		margin-bottom: -50px;
+		margin-left: 0px;
+		position: relative;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	#FPbenefitsHeadline {									/*Hier Überschrift stylen*/
+		font-family: 'Open Sans', sans-serif;
+		border-bottom: 1px solid rgb(204, 204, 204);
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	.FPbenefitsDiv {
+		position: relative;
+		margin-left: -5px;
+		width: calc(100% + 5px);  							/*Änderung hier falls Margin verändert!*/
+		
+	}
+
+	.FPbenefitContainer {
+		float: left;
+		position: relative;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+
+	.FPbenefit {											/*Hier Benefits stylen*/
+		background-color: #004982;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		padding: 0px;
+		display: block;
+	}
+
+	.FPbenefit img {
+		max-width: 100%;
+		transition: 300ms;
+	}
+
+	.FPbenefit:hover img {
+		transform: scale(1.1);
+	}
+
+	.FPTooltip {
+		border: 1px solid #ccc;
+		padding: 5px !important;
+		margin: 0px !important;
+		background-color: #FFF;
+		position: absolute;
+		bottom: 55px;
+		left: 50%;
+		transition: 200ms;
+		transform: scaleY(0) translateX(-50%);
+		transform-origin: bottom;
+		opacity: 0;
+		z-index: 5;
+		white-space: nowrap;
+	}
+
+	.FPbenefit:hover ~ .FPTooltip {
+		opacity: 1;
+		transform: scaleY(1) translateX(-50%);
+	}
+
+	.clearfix {
+		height: 0px;
+		clear: both;
+	}
+
+	p.FPplaceholder {
+		height: 0px;
+		margin: 0px;
+	}
+
+	p.bugfixFP {
+		height: 0 !important; 
+		line-height: 0 !important; 
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	@keyframes benefitfadeout{
+		0% {opacity: 1;}
+		100% {opacity: 0;}
+	}
+
+	/* Mobile Devices */
+	@media (max-width: 1050px) {
+		.FPbenefitsDiv {			
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+			justify-items: center;
+		}
+		
+		.FPbenefitContainer {
+			position: static;
+			margin-left: 0px;
+		}
+
+		.FPbenefitsBox [type=radio] {
+		z-index: 100;
+		}
+
+		.FPTooltip {
+			bottom: auto;
+			top: 3px;
+		}
+
+		.FPbenefit:hover ~ .FPTooltip {
+			opacity: 0;
+			transform: scaleY(0);
+		}
+
+		.FPbenefitsBox [type=radio]:checked ~ div ~ .FPTooltip {
+			opacity: 1;
+			transform: scaleY(1) translateX( calc(-50% + 2.5px));		 /*Änderung hier falls Margin verändert!*/
+			animation-name: benefitfadeout;
+			animation-delay: 2000ms;
+			animation-duration: 300ms;
+			animation-fill-mode: forwards;
+		}
+
+		p.FPplaceholder {
+		height: 30px;
+		margin: 0px;	
+		grid-column: 1/-1;
+		}
+
+	}
+</style>
+<div class="FPbenefitsBox">
+<p class="headi">Weitere Benefits:</p>
+
+<div class="FPbenefitsDiv">
+<p class="FPplaceholder">&nbsp;</p>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit1" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Zusatzversicherung Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/6672af95d843b1da3159a80515aee940beec9569.png" /></div>
+
+<p class="FPTooltip">Zusatzversicherung</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit3" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Geschenke Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/b67af9fbf4e96aa23602794d14a15be248617532.png" /></div>
+
+<p class="FPTooltip">Geschenke</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit4" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Mitarbeiterrabatte Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/f2ec0b1f6794129cc3be8a42b840f7d70803ddf5.png" /></div>
+
+<p class="FPTooltip">Mitarbeiterrabatte</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit6" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Prämien Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/f102ce1a160f6f276ba681436e3f1f41455c75dd.png" /></div>
+
+<p class="FPTooltip">Pr&auml;mien</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit7" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Einschulung Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/b212b0ac4366821cbf014af9fbb96c50ed79724f.png" /></div>
+
+<p class="FPTooltip">Einschulung</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit10" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Sport / Fitness Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/ed566f481092b53e116d18107d4cd7066f59fed4.png" /></div>
+
+<p class="FPTooltip">Sport / Fitness</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit11" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Parkplatz Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/196eafaea593eed685e8fb7d23d575a6d8bdf909.png" /></div>
+
+<p class="FPTooltip">Parkplatz</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit12" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Garage Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/f987efbbdf793f14942a6655c960bfdfbca9ddb5.png" /></div>
+
+<p class="FPTooltip">Garage</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit13" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Firmenhandy Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/01ab4fa39c420540c8d91d5caa9b6a570927828d.png" /></div>
+
+<p class="FPTooltip">Firmenhandy</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit16" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Zusatzpension Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/a0bd7431cde9360bfa7dc6bda2e2bc2bf68a71a8.png" /></div>
+
+<p class="FPTooltip">Zusatzpension</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit17" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="flexible Arbeitszeiten Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/cf9694dd859981366eaee3528ee79bd6458e13fc.png" /></div>
+
+<p class="FPTooltip">Flexible Arbeitszeiten</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit18" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Firmenevents Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/979f6d0e7921fbf24380e588f232449f0af5e3c6.png" /></div>
+
+<p class="FPTooltip">Firmenevents</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit19" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Verkehrsanbindung Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/b3e2ed0bec60432ce3bec6c73d373f7a108d7709.png" /></div>
+
+<p class="FPTooltip">Verkehrsanbindung</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit21" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="barrierefrei Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/de3abb818f178b11291b2c06f0dbd593b26b326f.png" /></div>
+
+<p class="FPTooltip">Barrierefrei</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit22" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Weiterbildungen Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/9ef3ebadf7205ccf3234ce6ecde3e8bbb05dd86c.png" /></div>
+
+<p class="FPTooltip">Weiterbildungen</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit24" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Pausenraum Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/15e3f78fcc9f7523c66e168d28d936c383694470.png" /></div>
+
+<p class="FPTooltip">Pausenraum</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit25" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Kantine Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/62a6f2e5d85f36b7690e8e3ca3196d44c87e8503.png" /></div>
+
+<p class="FPTooltip">Kantine</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit26" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="frisches Obst Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/51a006864096d79785ec9bf9587857e3993a0606.png" /></div>
+
+<p class="FPTooltip">Frisches Obst</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit28" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Getränke Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/ce1076dc7f731f987e6da91f195cef686dbece2a.png" /></div>
+
+<p class="FPTooltip">Getr&auml;nke</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit30" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Betriebsarzt Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/99246aa668499261c997b202b7540a751660ab82.png" /></div>
+
+<p class="FPTooltip">Betriebsarzt</p>
+</div>
+
+<div class="FPbenefitContainer">
+<p class="bugfixFP">&nbsp;</p>
+<input id="FPBenefit31" name="benefit_group" type="radio" />
+<div class="FPbenefit"><img alt="Kinderbetreuung Benefits für deine Karriere in Tirol" src="https://media.tirolerjobs.at/companies/0001/13/3767e6419e6f1e6bddef375210da68f3a03318f3.png" /></div>
+
+<p class="FPTooltip">Kinderbetreuung</p>
+</div>
+
+<p class="clearfix">&nbsp;</p>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+</div>
+<!-- Benefits Ende --></div>
+</div>
+</div>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
